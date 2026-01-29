@@ -1,0 +1,27 @@
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/water_usage_log.log
+Date: Thu 29 Jan 16:04:32 CAT 2026
+
+Device Count:
+
+First and Last Timestamps per Device:
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/heart_rate_log.log
+Date: Thu 29 Jan 16:05:14 CAT 2026
+
+Device Count:
+
+First and Last Timestamps per Device:
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/heart_rate_log.log
+Date: Thu 29 Jan 16:06:42 CAT 2026
+
+Device Count:
+
+First and Last Timestamps per Device:
+
