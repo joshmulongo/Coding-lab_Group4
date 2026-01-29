@@ -49,14 +49,16 @@ echo "" >> "$report_file"
 
 # Find first and last timestamp for each device
 echo "First and Last Timestamps per Device:" >> "$report_file"
-
+#device IDs from column 3 of the logs
 devices=$(awk '{print $3}' "$log_file" | sort | uniq)
 
+#loop through each device in the column 3 list from devices variable above
 for device in $devices
 do
+#get first and last timestamps for each device
     first_time=$(grep "$device" "$log_file" | head -n 1 | awk '{print $1, $2}')
     last_time=$(grep "$device" "$log_file" | tail -n 1 | awk '{print $1, $2}')
-
+# write result for each device and subsequently append to report file
     echo "$device - First: $first_time | Last: $last_time" >> "$report_file"
 done
 
