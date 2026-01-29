@@ -6,10 +6,10 @@ echo "1) Heart Rate (heart_rate.log)"
 echo "2) Temperature (temperature.log)"
 echo "3) Water Usage (water_usage.log)"
 
-# Read user input
+# Read user input and store in variable named choice
 read -p "Enter choice (1-3): " choice
 
-# Select log file based on choice
+# Determine log file selected based on user "choice" variable
 if [ "$choice" = "1" ]; then
     log_file="active_logs/heart_rate_log.log"
 elif [ "$choice" = "2" ]; then
@@ -21,13 +21,13 @@ else
     exit 1
 fi
 
-# Check if log file exists
+# Check if log file exists. If not, display error and exit
 if [ ! -f "$log_file" ]; then
     echo "Error: $log_file does not exist."
     exit 1
 fi
 
-# Create reports directory if it does not exist
+# Create reports directory if it does not exist in directory tree
 if [ ! -d "reports" ]; then
     mkdir reports
 fi
@@ -35,14 +35,14 @@ fi
 # Report file
 report_file="reports/analysis_report.txt"
 
-# Write report header
+# Write report header by appending to file
 echo "-----------------------------------" >> "$report_file"
 echo "Log Analysis Report" >> "$report_file"
 echo "File analyzed: $log_file" >> "$report_file"
 echo "Date: $(date)" >> "$report_file"
 echo "" >> "$report_file"
 
-# Count how many times each device appears
+# Count how many times each device appears with repect to the third column that holds device IDs
 echo "Device Count:" >> "$report_file"
 awk '{print $3}' "$log_file" | sort | uniq -c >> "$report_file"
 echo "" >> "$report_file"
