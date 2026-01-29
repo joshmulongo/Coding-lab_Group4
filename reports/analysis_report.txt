@@ -25,3 +25,42 @@ Device Count:
 
 First and Last Timestamps per Device:
 
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/heart_rate_log.log
+Date: Thu 29 Jan 16:09:39 CAT 2026
+
+Device Count:
+     49 HeartRate_Monitor_A
+     49 HeartRate_Monitor_B
+
+First and Last Timestamps per Device:
+HeartRate_Monitor_A - First: 2026-01-29 16:08:50 | Last: 2026-01-29 16:09:39
+HeartRate_Monitor_B - First: 2026-01-29 16:08:50 | Last: 2026-01-29 16:09:39
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/heart_rate_log.log
+Date: Thu 29 Jan 16:10:01 CAT 2026
+
+Device Count:
+     72 HeartRate_Monitor_A
+     72 HeartRate_Monitor_B
+
+First and Last Timestamps per Device:
+HeartRate_Monitor_A - First: 2026-01-29 16:08:50 | Last: 2026-01-29 16:10:01
+HeartRate_Monitor_B - First: 2026-01-29 16:08:50 | Last: 2026-01-29 16:10:01
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/heart_rate_log.log
+Date: Thu 29 Jan 16:10:42 CAT 2026
+
+Device Count:
+     97 HeartRate_Monitor_A
+     97 HeartRate_Monitor_B
+
+First and Last Timestamps per Device:
+HeartRate_Monitor_A - First: 2026-01-29 16:08:50 | Last: 2026-01-29 16:10:26
+HeartRate_Monitor_B - First: 2026-01-29 16:08:50 | Last: 2026-01-29 16:10:26
+
