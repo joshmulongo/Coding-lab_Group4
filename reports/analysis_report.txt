@@ -1,0 +1,48 @@
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/heart_rate_log.log
+Date: Thu Jan 29 15:31:31 EET 2026
+
+Device Count:
+      9 HeartRate_Monitor_A
+      9 HeartRate_Monitor_B
+
+First and Last Timestamps per Device:
+HeartRate_Monitor_A - First: 2026-01-29 15:25:46 | Last: 2026-01-29 15:25:55
+HeartRate_Monitor_B - First: 2026-01-29 15:25:46 | Last: 2026-01-29 15:25:55
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/temperature_log.log
+Date: Thu Jan 29 15:31:43 EET 2026
+
+Device Count:
+      8 Temp_Recorder_A
+      8 Temp_Recorder_B
+
+First and Last Timestamps per Device:
+Temp_Recorder_A - First: 2026-01-29 15:26:05 | Last: 2026-01-29 15:26:12
+Temp_Recorder_B - First: 2026-01-29 15:26:05 | Last: 2026-01-29 15:26:12
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/water_usage_log.log
+Date: Thu Jan 29 15:31:48 EET 2026
+
+Device Count:
+      7 Water_Consumption_Meter
+
+First and Last Timestamps per Device:
+Water_Consumption_Meter - First: 2026-01-29 15:26:22 | Last: 2026-01-29 15:26:29
+
+-----------------------------------
+Log Analysis Report
+File analyzed: active_logs/water_usage_log.log
+Date: Thu Jan 29 15:58:01 EET 2026
+
+Device Count:
+     14 Water_Consumption_Meter
+
+First and Last Timestamps per Device:
+Water_Consumption_Meter - First: 2026-01-29 15:26:22 | Last: 2026-01-29 15:57:25
+
