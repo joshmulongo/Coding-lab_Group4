@@ -1,19 +1,78 @@
- git clone <repository-url>
-Navigate to the project directory:
+LOG MANAGEMENT AND ANALYSIS SYSTEM
 
-cd <project-directory>
-Install dependencies (if applicable):
+PROJECT OVERVIEW
 
-<installation-command>
-Run the project:
+This project is a simple Bash scripting application used to manage and analyze log files. It allows users to archive logs safely and generate basic analysis reports using command-line tools.
 
-<run-command>
-Usage
-Provide instructions or examples for using the project:
+LEARNING OBJECTIVES
 
-<example-command-or-code>
-Contributions
-This project was collaboratively completed by Group 4. All members contributed equally to the development, research, and documentation.
+Practice writing interactive shell scripts
 
-License
-[Specify the license here, e.g., MIT, GPL, etc.]
+Work with files and directories using Bash
+
+Automate log archiving with timestamps
+
+Analyze log data using command-line tools
+
+SCRIPT FUNCTIONALITY
+
+archive_logs.sh
+
+Displays a menu to select a log file
+
+Archives the selected log with a timestamp
+
+Moves the log to an archive folder
+
+Creates a new empty log file
+
+Handles invalid input and missing files
+
+analyze_logs.sh
+
+Displays a menu to select a log file
+
+Analyzes the selected log file
+
+Counts device IDs
+
+Finds first and last timestamps per device
+
+Saves results to a report file
+
+TOOLS USED
+
+Bash
+
+awk
+
+grep
+
+sort
+
+uniq
+
+HOW TO RUN
+
+Make the scripts executable
+chmod +x archive_logs.sh analyze_logs.sh
+
+Run the scripts
+./archive_logs.sh
+./analyze_logs.sh
+
+TEAM MEMBERS
+
+Benitha Anny Akuzwe
+
+Benson Mwai Maina
+
+Joshua Gunnogere Mulongo
+
+Kevine Niyonkuru
+
+Tchatchum Chassem Stephane
+
+CONCLUSION
+
+This project demonstrates how Bash scripting can be used to automate log management and perform basic data analysis using Linux command-line tools.
