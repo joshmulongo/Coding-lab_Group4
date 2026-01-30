@@ -1,9 +1,6 @@
 #!/bin/bash
-
 # -------------------------------
-# Log Analysis Script
-# This script allows the user to select a log file,
-# analyze its contents, and generate a report.
+# The analyze_logs.sh Script allows the user to select a log file, and it will analyse its contents and generate a report saved to the reports directory
 # -------------------------------
 
 # Display menu options to the user
