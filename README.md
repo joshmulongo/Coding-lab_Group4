@@ -30,7 +30,7 @@ Handles invalid input and missing files
 
 analyze_logs.sh
 
-Displays a menu to select a log file
+Displays a menu to select the log file
 
 Analyzes the selected log file
 
@@ -38,9 +38,9 @@ Counts device IDs
 
 Finds first and last timestamps per device
 
-Saves results to a report file
+Saves results to the report file
 
-TOOLS USED
+TOOLS we USED
 
 Bash
 
@@ -75,4 +75,4 @@ Tchatchum Chassem Stephane
 
 CONCLUSION
 
-This project demonstrates how Bash scripting can be used to automate log management and perform basic data analysis using Linux command-line tools.
+This project shows how Bash scripting can be used to automate log management and perform basic data analysis using Linux command-line tools.
