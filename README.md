@@ -16,6 +16,10 @@ Analyze log data using command-line tools
 
 SCRIPT FUNCTIONALITY
 
+Download the file Coding-lab_group4 to your local machine
+
+Ensure that you have Execute permission
+
 archive_logs.sh
 
 Displays a menu to select a log file
@@ -62,6 +66,7 @@ Run the scripts
 ./analyze_logs.sh
 
 FILE STRUCTURE
+
  Coding-lab_Group4/
 ├── active_logs
 │   ├── heart_rate_log.log
