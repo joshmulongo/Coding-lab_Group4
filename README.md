@@ -61,12 +61,42 @@ Run the scripts
 ./archive_logs.sh
 ./analyze_logs.sh
 
+FILE STRUCTURE
+ Coding-lab_Group4/
+├── active_logs
+│   ├── heart_rate_log.log
+│   ├── temperature_log.log
+│   └── water_usage_log.log
+├── analyze_logs.sh
+├── archived_logs
+│   ├── heart_data_archive
+│   │   └── heart_rate_log_2026-01-29_14:54:28.log
+│   ├── temperature_data_archive
+│   │   ├── temperature_log_2026-01-29_14:54:01.log
+│   │   └── temperature_log_2026-01-29_14:54:46.log
+│   └── water_data_archive
+│       └── water_usage_log_2026-01-29_14:54:39.log
+├── archive_logs.sh
+├── hospital_data
+│   ├── active_logs
+│   │   ├── heart_rate_log.log
+│   │   ├── temperature_log.log
+│   │   └── water_usage_log.log
+│   ├── archives
+│   ├── heart_rate_monitor.py
+│   ├── temperature_recorder.py
+│   └── water_consumption.py
+├── README.md
+└── reports
+    └── analysis_report.txt
+
+
+
 TEAM MEMBERS
 
 Benitha Anny Akuzwe
 
 Benson Mwai Maina
-
 Joshua Gunnogere Mulongo
 
 Kevine Niyonkuru
